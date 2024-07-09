@@ -1,0 +1,238 @@
+:root{
+    --primary:#221F20;
+    --secondary:#EB237C;
+    --secondary_2: #F7AFCE;
+    --secondary_3: #FADCE7;
+    --elevator_button:#F93F3F;
+}
+@font-face {
+    font-family: libre;
+    src: url();
+}
+.max-width{
+    width: 430px;
+    margin: auto;
+}
+section.section{
+    padding: 0 16px;
+
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: var(--secondary_3);
+    padding: 0px 16px!important;
+    height: 58px;
+}
+
+nav h2{
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: var(--secondary);
+    text-align: center;
+    margin: 0px;
+    text-transform: uppercase ;
+}
+nav .freeship{
+    display: flex;
+    color: var(--elevator_button);
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+}
+nav .freeship .text{
+    line-height: 14px;
+    text-align: right;
+    margin-right: 4px;
+}
+nav .freeship .text strong{
+    font-size: 14px;
+}
+nav .freeship .text span{
+    font-size: 12px;
+}
+nav .freeship img{
+    width: 36px;
+}
+nav .btn{
+    font-size: 12px;
+    text-transform: uppercase;
+    color: var(--secondary);
+    font-weight: 900;
+    border-color: var(--secondary);
+    padding: 8px 16px;
+}
+
+/* section 2 */
+.section2{
+    background-image: url(/img/Background.png);
+    background-position: center;
+    background-size: cover;
+}
+.section2 .text-section-2{
+    font-size: 18px;
+    font-style: italic;
+    font-size: 18px;
+    padding-top: 32px;
+}
+.section2 .text-section-2 strong{
+    font-style: 700;
+    font-style: italic;
+}
+.section2 .text-section-2 h1{
+    font-family: "Libre Bodoni", serif;
+    color: var(--secondary);
+    font-size: 52px;
+    letter-spacing: -1px;
+}
+.section2 .text-section-2 p{
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+}
+.section2 .content-section-2 .content-right img.model-img{
+    width: 221px;
+    overflow: hidden;
+}
+.section2 .content-section-2 .content-right{
+    width: 160px;
+    height: 144px;
+}
+.section2 .content-section-2 .content-right .details-box{
+    width: 146px;
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: 300;
+    padding: 12px 16px;
+    border-radius:16px ;
+    text-align: center;
+    border: 2px solid var(--secondary);
+    background-image: url(/img/Background.png);
+    background-position: top;
+}
+
+/* section 3 */
+section.section3{
+
+}
+
+section.section3 .count-down-box .count-box div{
+    padding: 12px 16px;
+    font-size: 48px;
+    font-family: "Roboto";
+    font-weight: 900;
+    border-radius: 0 16px 0 16px;
+    background-color: var(--secondary_3);
+    color: var(--secondary);
+}
+section.section3 h4{
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--secondary);
+}
+section.section3 .count-down-box .count-box p{
+    font-family: "Roboto";
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 300;
+    color: var(--secondary);
+}
+section.section3 button{
+    border-radius: 8px 0px 8px 0px;
+    background-color: var(--elevator_button);
+    border: 0px solid;
+    font-size: 14px;
+}
+section.section3 .description{
+    font-style: italic;
+    font-weight: 300;
+    
+}
+
+/* section 4 */
+section.section4{
+    background-image: url(/img/Background.png);
+    background-size: cover;
+}
+.card{
+    border: 0px solid;
+    background-color: #ffffff00;
+}
+.card-body{
+    padding: 0;
+}
+section.section4 .title-section-4{
+    margin-top: 36px;
+}
+section.section4 .product-details-section-4{
+    border: 2px solid var(--secondary);
+    border-radius: 16px;
+    background-image: url(/img/Background.png);
+    background-size: cover;
+    background-position: center;
+    font-size: 16px;
+    font-family: "Roboto";
+    font-style: italic;
+    font-weight: 300;
+}
+section.section4 .title-section-4 h1{
+    font-size: 52px;
+    font-family: "Libre Bodoni";
+    font-weight: 900;
+    color: var(--secondary);
+    font-style: italic;
+}
+section.section4 .title-section-4 p{
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-style: italic;
+}
+section.section4 .title-section-4 h4{
+    font-size: 32px;
+    font-family: "Libre Bodoni";
+    font-weight: 900;
+    color: var(--secondary);
+    font-style: italic;
+}
+section.section4 .d-flex .content-left{
+    width: 120px;
+}
+section.section4 .d-flex .card.content-right .card-body h5.card-title{
+    font-size: 28px;
+    font-family: "Libre Bodoni";
+    font-weight: 700;
+    color: var(--secondary);
+}
+
+section.section4 .d-flex .card.content-right .card-body p{
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-style: italic;
+}
+
+/* section 5 */
+section.section5{
+    background-image: url(/img/Background.png);
+    background-size: cover;
+}
+section.section5 h4{
+    font-size: 32px;
+    font-weight: 900;
+    font-family: "Libre Bodoni";
+    font-style: italic;
+    color: var(--secondary);
+}
+section.section5 p{
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "Roboto";
+    font-style: italic;
+
+}
